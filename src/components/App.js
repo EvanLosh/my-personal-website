@@ -5,20 +5,23 @@ import NavBar from "./NavBar.js"
 import Home from "./Home.js"
 import About from "./About.js"
 import Links from "./Links.js"
+import TableOfContents from "./TableOfContents.js"
+import DisplaySelectedContent from "./DisplaySelectedContent"
+import Title from "./Title"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NavBar />
-        <Home />
-        <About />
-        <Links />
-        <p>
-          {bio.firstName}
-        </p>
-
+        <Title />
       </header>
+
+      <TableOfContents />
+
+      <DisplaySelectedContent />
+
+      <p>
+      </p>
     </div>
   );
 }

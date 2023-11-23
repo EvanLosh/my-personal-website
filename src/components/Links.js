@@ -2,7 +2,7 @@ import React from "react"
 
 function Links() {
     return (
-        <h1>Links</h1>
+        <h1 id="inks">Links</h1>
     )
 }
 
