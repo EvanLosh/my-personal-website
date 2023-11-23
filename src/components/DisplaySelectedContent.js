@@ -1,8 +1,15 @@
 import React from "react"
+import contents from "../data/contents.js"
+
+
 
 function DisplaySelectedContent() {
     return (
-        <h1 id="DisplaySelectedContent">DisplaySelectedContent</h1>
+        <div id="DisplaySelectedContent">DisplaySelectedContent
+            <h2>{contents[0].title}</h2>
+            <p>{contents[0].body}</p>
+
+        </div>
     )
 }
 
